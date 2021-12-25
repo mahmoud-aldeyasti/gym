@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+}
+body{
+     font-family: 'Open Sans', sans-serif;
+}
+*::selection{
+    background-color: yellowgreen;
+    color: white;
+}
+body::selection{
+    background-color: yellowgreen;
+}
+button{
+    text-decoration: none;
+    color: yellowgreen;
+    border:3px solid yellowgreen;
+    border-radius: 8%;
+    transition: all 0.3s linear;
+    background-color: transparent;
+    width: fit-content;
+    padding: 1.2vh;
+    margin: 4vh;
+    font-weight: 300px;
+    font-size: 2em;
+
+}
+
+button:hover{
+    color: white;
+    background-color: yellowgreen;
+}
+a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 91%, 49% 100%, 0 89%, 0 0);
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.header1 ul li {
+    list-style-type:none;
+    display: inline;
+    margin-right: 1.1vh;
+    margin-left: 1.1vh;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 150px;
+    line-height: 1.8;
+   
+}
+.header ul li a:hover{
+    color: yellowgreen;
+}
+.header11{
+    display: flex;
+    position: absolute;
+    top: 5vh;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5% ;
+}
+.header11 span
+{
+color: greenyellow;
+
+text-transform: uppercase;
+}
+
+
+.header11 .hj1{
+    font-size: 2.4em;
+    font-weight: 190px;
+    line-height: 1.9;
+    text-transform: uppercase;
+}
+.header2{
+    position: absolute;
+    top: 30vh;
+    height: 70vh;
+    text-align: center;
+    width: 100%;
+ 
+  
+}
+.header2 h1{
+    font-size: 8em;
+    font-weight: bolder;
+    margin-top: 4vh;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.awaus .imgage{
+    width: 40vw;
+    height: 55vh;
+}
+.awaus img{
+    width: 100%;
+    height: 100%;
+}
+.awaus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5vh;
+    margin-top: 13vh;
+    margin-bottom: 13vh;
+}
+.awaus .word{
+    flex-basis: 40vw;
+    text-align: center;
+}
+.awaus .word h1{
+    color: yellowgreen;
+    font-size: 3.1em;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+
+}
+.awaus .word p{
+    margin: 2vh;
+    font-size: 1.1em;
+    line-height: 1.65;
+}
+.ourservices .h11{
+    position: relative;
+    right: -37%;
+}
+.ourservices .imgo{
+    width: 28vw;
+    height: 40vh;
+    margin: 1vh;
+    position: relative;
+    z-index: 1;
+}    
+.redw{
+position: absolute;
+bottom: 0;
+width: 100%;
+z-index: 30;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.76);
+overflow: hidden;
+transition: all 0.3s linear ;
+text-align: center;
+
+
+}
+.redw p{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 150px;
+    line-height: 1.65;
+    margin: 1.5vh;
+
+}
+.redw h1{
+    font-size: 2em;
+    font-weight: 400px;
+    margin: 1vh;
+    color: yellowgreen;
+}
+
+.redw:hover
+{
+visibility: visible;
+}
+.ourservices .imgo img
+{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    z-index: 1;
+}
+
+.ourservices1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.trainers{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:  space-between;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.trainers .imga{
+    width: 400px;
+    height: 640px;
+}
+.trainers .imga img{
+    width: 100%;
+    height: 100%;
+}
+.ourtrainers{
+    text-align: center;
+}
+
+
+.container{
+    margin-top: 5px;
+ 
+}
+.spjw{
+filter: opacity(1);    
+background-color: yellowgreen;
+padding: 1.2rem 1rem;
+border-radius: 0.6rem;
+margin-top: -2.5rem;
+width: 380px;
+position: relative;
+left: 10px;
+}
+.spjw h1, .spjw h6
+{
+    margin: 10px;
+}
+.pa11{
+    font-size: 1.6em;
+    font-weight: normal;
+    line-height: 1.8;
+    margin: 5vh;
+    margin-top: -2vh;
+}
+.trainers a:hover 
+{
+ 
+    box-shadow: 0px 0px 7px 2px #000000;
+
+}
+.trainers a{
+    display: inline;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px ;
+    transition: all 0.3s  linear ;
+}
+.trainer{
+    position: relative;
+    transition: all 2s ease-in-out ;
+}
+.trainer:hover{
+    top: -25px;
+}
+.basic {
+background-color: white;
+width: 480px;
+height: 660px;
+box-shadow: 2px 2px 6px 0px #000000;
+margin: 3%;
+position: relative;
+transition: all 0.3s linear ;
+
+}
+.basic:hover{
+    position: relative;
+    top: -25px;
+}
+.green{
+    background-color: yellowgreen;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    padding: 1.2rem;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: fit-content;
+}
+.green h1{
+    color: black !important;
+    height: fit-content;
+    font-size: 25px !important;
+}
+.h11{
+    display: inline-block;
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 4em;
+    margin: 5vh;
+    border-bottom: 4px solid yellowgreen;
+  
+}
+.h11::selection{
+    background-color: yellowgreen;
+}
+.ourplan{
+    text-align: center;
+}
+.basics{
+    display: flex;
+    justify-content: space-between;
+}
+.ourplan i{
+    display: inline;
+}
+.ourplan li{
+    display: block;
+    font-weight: 100px;
+    font-size: 1.1em;
+    margin-top: 0.2vh;
+    line-height: 1.8;
+}
+.basic h1, .basic h2{
+    margin-top: 1.7vh;
+    margin-bottom: 1.7vh;
+} 
+.basic h1{
+    color: yellowgreen;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.basic h2{
+    font-size: 2em;
+    font-weight: 120px;
+    line-height: 1.8
+}
+
+.ourplan ul li{
+    list-style-type: none;
+}
+footer{
+    height:2em;
+    background-color: #333;   
+    color: white;
+    line-height: 1.7;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: content-box;
+
+}
+
+.form{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/register.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    
+ 
+
+}
+input , textarea
+{
+    background-color: transparent;
+}
+form{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+input{
+    width: 40%;
+    height: 8vh;
+    margin: 1.5vh;
+    border: 1px solid whitesmoke;
+    padding: 2vh;
+    font-weight: 300px;
+    font-size: 2em;
+    color: white;
+}
+.msgg
+{
+    padding: 2vh;
+    width: 81.5%;
+    height: 38vh;
+    resize: none;
+    margin: 4vh;
+    border: 1px solid whitesmoke;
+    font-weight: 300px;
+    font-size: 2em;
+    color: white;
+
+}
+.form h1{
+    display: inline-block;
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 4em;
+    margin: 5vh;
+    border-bottom: 3px solid yellowgreen;
+}
+.subm{
+    width: fit-content;
+    padding: 2vh;
+    margin: 4vh;
+    margin-top: -0.5vh;
+    border:3px solid yellowgreen;
+    color: yellowgreen;
+    border-radius: 8%;
+    transition: all 0.3s linear;
+}
+.subm:hover{
+    color: white;
+    background-color: yellowgreen;
+}
